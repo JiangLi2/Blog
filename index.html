@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoBo | 大力波波</title>
+    <link rel="shortcut icon" href="./favicon.jpg" type="image/x-icon">
+    <style>
+        * {
+            xbackground-color: rgba(0, 0, 0, 0.1);
+            xoutline: 1px solid orange;
+        }
+        @font-face {
+            font-family: 'FontAwesome';
+            src: url('./font/fontawesome-webfont.woff2');
+        }
+        @font-face {
+            font-family: 'BoBo';
+            src: url('./font/KaushanScript-Regular.otf');
+        }
+
+
+        html{
+            width: 100vw;
+            height: 100vh;
+        }
+        body {
+            position: relative;
+            margin: 0 auto;
+            width: 80%;
+            height: 100%;
+        }
+        
+        header {
+            padding: 5px 0px;
+            width: 100%;
+            height: 100px;
+        }
+        .desc{
+            display: inline-block;
+            font-size: 4em;
+        }
+        
+        span {
+            color: rgb(251, 95, 96);
+            font-family: 'BoBo';
+        }
+        aside {
+            margin-top: 32px;
+            xborder-right: 1px dashed rgb(251, 95, 96);
+            width: 30%;
+        }
+
+        main {
+            overflow: auto;
+            margin-top: 32px;
+            position: absolute;
+            left: 30%;
+            top: 110px;
+            width: 70%;
+            height: calc(100% - 142px);
+        }
+        ul{
+            margin: 0;
+            color: rgb(251, 95, 96);
+            font-size: 2em;
+            font-family: "FontAwesome";
+            list-style: none;
+            color: b;
+        }
+        li::before{
+            content: "\f211";
+            display: inline-block;
+            width: 1em;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="desc">
+            <span>Hello!</span>
+            <span>I am BoBo~~</span>
+        </div>
+    </header>
+    <aside>
+        <ul>
+            <li> <a href="">Html</a> </li>
+            <li> <a href="">CSS</a> </li>
+            <li> <a href="">CSS3</a> </li>
+        </ul>
+    </aside>
+    <main>
+        <div>
+            大家好，我是大力波波
+            <p>这是一个静态网站，接下来，我将把我的所有学习练习及笔记，发布到此网站，敬请期待...</p>
+        </div>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
